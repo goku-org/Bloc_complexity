@@ -1,0 +1,29 @@
+
+
+```sql
+CREATE TABLE EMP (
+    ENAME VARCHAR2(20),
+    DEPT_NAME VARCHAR2(20),
+    DESIGNATION VARCHAR2(20),
+    SALARY NUMBER(6),
+    DATE_OF_JOIN DATE
+);
+
+INSERT INTO EMP (ENAME, DEPT_NAME, DESIGNATION, SALARY, DATE_OF_JOIN) VALUES
+('KARAN', 'ACCOUNTING', 'DIRECTOR', 50000, TO_DATE('Nov 17, 2012', 'Mon DD, YYYY')),
+('FARAH', 'RESEARCH', 'ANALYST', 30000, TO_DATE('Dec 03, 1991', 'Mon DD, YYYY')),
+('SCINDIA', 'RESEARCH', 'ANALYST', 30000, TO_DATE('Dec 09, 2002', 'Mon DD, YYYY')),
+('JOY', 'RESEARCH', 'MANAGER', 29750, TO_DATE('Apr 02, 2011', 'Mon DD, YYYY')),
+('BHASKAR', 'SALES', 'MANAGER', 28500, TO_DATE('May 01, 1999', 'Mon DD, YYYY')),
+('CHANDER', 'ACCOUNTING', 'MANAGER', 24500, TO_DATE('Jun 09, 2000', 'Mon DD, YYYY')),
+('ANIL', 'SALES', 'SALESMAN', 16000, TO_DATE('Feb 20, 1991', 'Mon DD, YYYY')),
+('TOMAR', 'SALES', 'SALESMAN', 15000, TO_DATE('Sep 08, 2001', 'Mon DD, YYYY')),
+('MILIND', 'ACCOUNTING', 'CLERK', 13000, TO_DATE('Jan 23, 2002', 'Mon DD, YYYY')),
+('SAXENA', 'SALES', 'SALESMAN', 12500, TO_DATE('Sep 28, 1999', 'Mon DD, YYYY')),
+('TOMAR', 'SALES', 'SALESMAN', 14500, TO_DATE('Feb 22, 1997', 'Mon DD, YYYY')),
+('ANAND', 'RESEARCH', 'CLERK', 11000, TO_DATE('Jan 12, 1993', 'Mon DD, YYYY')),
+('GEORGE', 'SALES', 'CLERK', 9500, TO_DATE('Dec 03, 1990', 'Mon DD, YYYY')),
+('SURESH', 'RESEARCH', 'CLERK', 8000, TO_DATE('Dec 17, 1992', 'Mon DD, YYYY'));
+```
+
+This SQL statement creates the EMP table with the specified columns and inserts the provided data into the table. Make sure to execute this SQL statement in your Oracle database to create the table and populate it with the data.
